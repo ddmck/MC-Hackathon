@@ -24,12 +24,12 @@ namespace TMPro.Examples
         void OnEnable()
         {
             // Subscribe to event fired when text object has been regenerated.
-            TMPro_EventManager.TEXT_CHANGED_EVENT.Add(ON_TEXT_CHANGED);
+            UnityEngine.TextCore.Text.TextEventManager.TEXT_CHANGED_EVENT.Add(ON_TEXT_CHANGED);
         }
 
         void OnDisable()
         {
-            TMPro_EventManager.TEXT_CHANGED_EVENT.Remove(ON_TEXT_CHANGED);
+            UnityEngine.TextCore.Text.TextEventManager.TEXT_CHANGED_EVENT.Remove(ON_TEXT_CHANGED);
         }
 
 

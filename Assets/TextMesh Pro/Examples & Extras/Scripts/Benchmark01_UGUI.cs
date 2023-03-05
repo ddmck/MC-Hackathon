@@ -12,7 +12,7 @@ namespace TMPro.Examples
         public int BenchmarkType = 0;
 
         public Canvas canvas;
-        public TMP_FontAsset TMProFont;
+        public UnityEngine.TextCore.Text.FontAsset TMProFont;
         public Font TextMeshFont;
 
         private TextMeshProUGUI m_textMeshPro;
