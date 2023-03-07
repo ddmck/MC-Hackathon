@@ -1,0 +1,34 @@
+{
+    "name": "LevelActions",
+    "maps": [
+        {
+            "name": "Right XR Controller",
+            "id": "cb8256e6-3fc9-4f6f-9e45-0f567a133238",
+            "actions": [
+                {
+                    "name": "PlaceMarker",
+                    "type": "Value",
+                    "id": "6ecb53c4-d914-4aac-9064-4593f5bf5ce6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "be55b236-75dd-41b1-9494-4034302bcb2c",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlaceMarker",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
